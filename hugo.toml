@@ -1,0 +1,26 @@
+baseURL = 'https://mriganka.xyz'
+languageCode = 'en-us'
+title = "Mriganka's blog"
+theme = "PaperMod"
+
+[[menu.main]]
+identifier = "categories"
+name = "/categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "/about"
+url = "/about/"
+weight = 20
+
+[outputs]
+home = ["HTML", "RSS", "JSON"] 
+
+[params]
+math = true
+ShowCodeCopyButtons = true
+
+[params.profileMode]
+enabled = false
